@@ -18,7 +18,7 @@ function createWindow () {
     width: 800,
     height: 600,
     show: false,
-    // backgroundColor: '#fff000',
+    backgroundColor: '#fff000',
     // frame: false,
     minWidth: 400,
     minHeight: 400,
@@ -27,8 +27,8 @@ function createWindow () {
     }
   })
   childWindow = new BrowserWindow({ width: 500, height: 400, parent: mainWindow, modal: true, show: false})
-//   secWindow = new BrowserWindow({ width: 500, height: 400})
-//   thirdWindow = new BrowserWindow({ width: 500, height: 400, backgroundColor: '#ff0000'})
+  secWindow = new BrowserWindow({ width: 500, height: 400})
+  thirdWindow = new BrowserWindow({ width: 500, height: 400, backgroundColor: '#ff0000'})
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')

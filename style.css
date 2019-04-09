@@ -1,0 +1,20 @@
+.container {
+    margin: 20px;
+    display: grid;
+    background-color: bisque;
+    /* grid-template-columns: 200px 1fr 3rem  1fr;
+    grid-template-rows: 5rem 8rem 7rem auto;
+*/
+    grid-template-columns: repeat(4, 25%);
+    /* grid-template-rows: [row-1-start] 5rem [row-2-start]  100px [row-3-start] 300px 150px [row-4-start]; */
+    grid-template-rows: 200px 200px 200px;
+}
+
+.section {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    position: center;
+
+}
+
